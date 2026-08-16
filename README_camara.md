@@ -3,7 +3,7 @@
 Pipeline de dados que coleta Projetos de Lei apresentados na Câmara dos Deputados em 2025, transforma e valida os dados com Pandas, carrega o histórico no PostgreSQL e grava uma visão derivada (ranking de produtividade legislativa por partido) no MongoDB Atlas.
 
 **Autor:** Cauê Lima
-**Módulo 3 — Introdução à Engenharia de Dados na Prática · NExT 26.1 · CESAR School**
+
 
 ---
 
@@ -84,7 +84,7 @@ Endpoints utilizados:
 
 ---
 
-## Decisões de escopo (leia antes de interpretar os números)
+## Decisões de escopo 
 
 Estas decisões delimitam o que o pipeline mede. Sem elas, os números seriam facilmente mal interpretados.
 
@@ -130,7 +130,7 @@ A camada raw continua acumulando o histórico completo de coletas — o que pres
 ### 1. Clonar e preparar o ambiente
 
 ```bash
-git clone https://github.com/cauelima/pipeline-proposicoes-camara-2025.git
+git clone https://github.com/SEU-USUARIO/pipeline-proposicoes-camara-2025.git
 cd pipeline-proposicoes-camara-2025
 
 python -m venv .venv
